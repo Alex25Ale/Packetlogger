@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>CPacketSenderUI</class>
+ <widget class="QGroupBox" name="CPacketSenderUI">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>450</width>
+    <height>487</height>
+   </rect>
+  </property>
+  <property name="styleSheet">
+   <string>
+    background-color: #2E2E2E; /* Dark background for the group box */
+    color: white; /* Default text color */
+   </string>
+  </property>
+  <widget class="QTextEdit" name="teSendPackets">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>20</y>
+     <width>430</width>
+     <height>150</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string>
+     background-color: #1E1E1E; /* Dark background for text edit */
+     color: white; /* Text color */
+     border: 1px solid #444; /* Subtle border */
+     padding: 5px; /* Padding for better spacing */
+    </string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pbSend">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>190</y>
+     <width>120</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string>
+     QPushButton {
+         background-color: #4A4A4A; /* Darker button background color */
+         color: white; /* Button text color */
+         padding: 6px; /* Padding */
+         border: none; /* No border for the button */
+         border-radius: 5px; /* Rounded corners */
+     }
+     QPushButton:hover {
+         background-color: #5A5A5A; /* Slightly lighter on hover */
+     }
+    </string>
+   </property>
+   <property name="text">
+    <string>Send</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pbSpam">
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>190</y>
+     <width>120</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string>
+     QPushButton {
+         background-color: #4A4A4A; /* Darker button background color */
+         color: white; /* Button text color */
+         padding: 6px; /* Padding */
+         border: none; /* No border for the button */
+         border-radius: 5px; /* Rounded corners */
+     }
+     QPushButton:hover {
+         background-color: #5A5A5A; /* Slightly lighter on hover */
+     }
+    </string>
+   </property>
+   <property name="text">
+    <string>Start</string>
+   </property>
+  </widget>
+  <widget class="QSpinBox" name="sbTime">
+   <property name="geometry">
+    <rect>
+     <x>330</x>
+     <y>190</y>
+     <width>100</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string>
+     QSpinBox {
+         background-color: #1E1E1E; /* Spin box background color */
+         color: white; /* Text color */
+         border: 1px solid #444; /* Subtle border */
+         padding: 5px; /* Padding for better spacing */
+     }
+    </string>
+   </property>
+   <property name="suffix">
+    <string>ms</string>
+   </property>
+   <property name="minimum">
+    <number>50</number>
+   </property>
+   <property name="maximum">
+    <number>2000000000</number>
+   </property>
+   <property name="value">
+    <number>100</number>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lTime">
+   <property name="geometry">
+    <rect>
+     <x>280</x>
+     <y>197</y>
+     <width>38</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string>
+     color: white; /* Label text color */
+     font-weight: bold; /* Bold font for emphasis */
+    </string>
+   </property>
+   <property name="text">
+    <string>Time:</string>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="teReceivePackets">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>250</y>
+     <width>430</width>
+     <height>150</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string>
+     background-color: #1E1E1E; /* Dark background for text edit */
+     color: white; /* Text color */
+     border: 1px solid #444; /* Subtle border */
+     padding: 5px; /* Padding for better spacing */
+    </string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pbReceive">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>420</y>
+     <width>120</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string>
+     QPushButton {
+         background-color: #4A4A4A; /* Darker button background color */
+         color: white; /* Button text color */
+         padding: 6px; /* Padding */
+         border: none; /* No border for the button */
+         border-radius: 5px; /* Rounded corners */
+     }
+     QPushButton:hover {
+         background-color: #5A5A5A; /* Slightly lighter on hover */
+     }
+    </string>
+   </property>
+   <property name="text">
+    <string>Receive</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pbSpamReceive">
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>420</y>
+     <width>120</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string>
+     QPushButton {
+         background-color: #4A4A4A; /* Darker button background color */
+         color: white; /* Button text color */
+         padding: 6px; /* Padding */
+         border: none; /* No border for the button */
+         border-radius: 5px; /* Rounded corners */
+     }
+     QPushButton:hover {
+         background-color: #5A5A5A; /* Slightly lighter on hover */
+     }
+    </string>
+   </property>
+   <property name="text">
+    <string>Start Receive</string>
+   </property>
+  </widget>
+  <widget class="QSpinBox" name="sbTime_2">
+   <property name="geometry">
+    <rect>
+     <x>330</x>
+     <y>420</y>
+     <width>100</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string>
+     QSpinBox {
+         background-color: #1E1E1E; /* Spin box background color */
+         color: white; /* Text color */
+         border: 1px solid #444; /* Subtle border */
+         padding: 5px; /* Padding for better spacing */
+     }
+    </string>
+   </property>
+   <property name="suffix">
+    <string>ms</string>
+   </property>
+   <property name="minimum">
+    <number>50</number>
+   </property>
+   <property name="maximum">
+    <number>2000000000</number>
+   </property>
+   <property name="value">
+    <number>100</number>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lTime_2">
+   <property name="geometry">
+    <rect>
+     <x>280</x>
+     <y>427</y>
+     <width>38</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string>
+     color: white; /* Label text color */
+     font-weight: bold; /* Bold font for emphasis */
+    </string>
+   </property>
+   <property name="text">
+    <string>Time:</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

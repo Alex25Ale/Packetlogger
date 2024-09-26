@@ -1,0 +1,46 @@
+﻿  Reading Qt configuration (C:/Qt/5.15.2/msvc2019/bin/qmake)
+  uic DamageCounterUI.ui
+  uic FilterUI.ui
+  uic PacketSenderUI.ui
+  uic PacketUI.ui
+  uic WhitelistSettingsUI.ui
+  rcc PacketLoggerShare.qrc
+  moc FilterUI.h
+  moc AdvancedGroupBox.h
+  moc AdvancedListWidget.h
+  moc DamageCounterUI.h
+  moc PacketSenderUI.h
+  moc PacketUI.h
+  moc TcpServer.h
+  moc WhitelistSettingsUI.h
+   RCC: Warning: No resources in 'C:\Users\Realm\source\repos\PacketLoggerShare\PacketLoggerShare\PacketLoggerShare.qrc'.
+  Memory.cpp
+  PacketSenderUI.cpp
+  PacketUI.cpp
+  TcpServer.cpp
+  WhitelistSettingsUI.cpp
+  AddressFunctions.cpp
+  AddressManager.cpp
+  AdvancedGroupBox.cpp
+  AdvancedListWidget.cpp
+  Config.cpp
+  DamageCounterUI.cpp
+  FilterUI.cpp
+  HookFunctions.cpp
+  HookManager.cpp
+  main.cpp
+  qrc_PacketLoggerShare.cpp
+  moc_FilterUI.cpp
+  moc_AdvancedGroupBox.cpp
+  moc_AdvancedListWidget.cpp
+  moc_DamageCounterUI.cpp
+  moc_PacketSenderUI.cpp
+  moc_PacketUI.cpp
+  moc_TcpServer.cpp
+  moc_WhitelistSettingsUI.cpp
+LINK : warning LNK4098: defaultlib 'LIBCMT' conflicts with use of other libs; use /NODEFAULTLIB:library
+  Generating code
+  Previous IPDB not found, fall back to full compilation.
+  All 1742 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  PacketLoggerShare.vcxproj -> C:\Users\Realm\source\repos\PacketLoggerShare\Release\PacketLoggerShare.dll

@@ -1,0 +1,359 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>CPacketUI</class>
+ <widget class="QMainWindow" name="CPacketUI">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Alerian Logger</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>600</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string>
+     background-color: #1E1E1E; /* Background color of the central widget */
+     color: white; /* Default text color */
+    </string>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="CAdvancedGroupBox" name="gbLoggerSettings">
+      <property name="styleSheet">
+       <string>
+        background-color: #2E2E2E; /* Group box background color */
+        color: white; /* Text color in group box */
+       </string>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout_3">
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout_3">
+         <item>
+          <widget class="QPushButton" name="pbSendFilter">
+           <property name="text">
+            <string>Send Filter</string>
+           </property>
+           <property name="styleSheet">
+            <string>
+             background-color: #2E2E2E; /* Button background color */
+             color: white; /* Button text color */
+            </string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="pbRecvFilter">
+           <property name="text">
+            <string>Receive Filter</string>
+           </property>
+           <property name="styleSheet">
+            <string>
+             background-color: #2E2E2E; /* Button background color */
+             color: white; /* Button text color */
+            </string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout_4">
+         <item>
+          <widget class="QPushButton" name="pbSendBlocker">
+           <property name="text">
+            <string>Send Blocker</string>
+           </property>
+           <property name="styleSheet">
+            <string>
+             background-color: #2E2E2E; /* Button background color */
+             color: white; /* Button text color */
+            </string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="pbRecvBlocker">
+           <property name="text">
+            <string>Receive Blocker</string>
+           </property>
+           <property name="styleSheet">
+            <string>
+             background-color: #2E2E2E; /* Button background color */
+             color: white; /* Button text color */
+            </string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <widget class="QPushButton" name="pbSender">
+         <property name="text">
+          <string>Sender</string>
+         </property>
+         <property name="styleSheet">
+          <string>
+           background-color: #2E2E2E; /* Button background color */
+           color: white; /* Button text color */
+          </string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="pbDamageCounter">
+         <property name="text">
+          <string>Damage Counter</string>
+         </property>
+         <property name="styleSheet">
+          <string>
+           background-color: #2E2E2E; /* Button background color */
+           color: white; /* Button text color */
+          </string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout_2">
+      <item>
+       <spacer name="horizontalSpacer1">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+       </spacer>
+      </item>
+      <item>
+       <widget class="QCheckBox" name="cbAutoScroll">
+        <property name="text">
+         <string>Scroll</string>
+        </property>
+        <property name="checked">
+         <bool>true</bool>
+        </property>
+        <property name="styleSheet">
+         <string>
+          color: white; /* Checkbox text color */
+         </string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <spacer name="horizontalSpacer2">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+       </spacer>
+      </item>
+      <item>
+       <widget class="QCheckBox" name="cbLogSendPackets">
+        <property name="text">
+         <string>Log Send</string>
+        </property>
+        <property name="checked">
+         <bool>true</bool>
+        </property>
+        <property name="styleSheet">
+         <string>
+          color: white; /* Checkbox text color */
+         </string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <spacer name="horizontalSpacer3">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+       </spacer>
+      </item>
+      <item>
+       <widget class="QCheckBox" name="cbLogReceivePackets">
+        <property name="text">
+         <string>Log Recv</string>
+        </property>
+        <property name="checked">
+         <bool>true</bool>
+        </property>
+        <property name="styleSheet">
+         <string>
+          color: white; /* Checkbox text color */
+         </string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <spacer name="horizontalSpacer4">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+       </spacer>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <widget class="CAdvancedListWidget" name="lwPacketList">
+      <property name="lineWidth">
+       <number>1</number>
+      </property>
+      <property name="verticalScrollBarPolicy">
+       <enum>Qt::ScrollBarAlwaysOn</enum>
+      </property>
+      <property name="horizontalScrollBarPolicy">
+       <enum>Qt::ScrollBarAlwaysOff</enum>
+      </property>
+      <property name="sizeAdjustPolicy">
+       <enum>QAbstractScrollArea::AdjustIgnored</enum>
+      </property>
+      <property name="editTriggers">
+       <set>QAbstractItemView::NoEditTriggers</set>
+      </property>
+      <property name="selectionMode">
+       <enum>QAbstractItemView::ExtendedSelection</enum>
+      </property>
+      <property name="verticalScrollMode">
+       <enum>QAbstractItemView::ScrollPerItem</enum>
+      </property>
+      <property name="horizontalScrollMode">
+       <enum>QAbstractItemView::ScrollPerItem</enum>
+      </property>
+      <property name="wordWrap">
+       <bool>false</bool>
+      </property>
+      <property name="selectionRectVisible">
+       <bool>false</bool>
+      </property>
+      <property name="styleSheet">
+       <string>
+        background-color: #1E1E1E; /* List widget background color */
+        color: white; /* Text color in list */
+       </string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="pbClearLog">
+      <property name="text">
+       <string>Clear Log</string>
+      </property>
+      <property name="styleSheet">
+       <string>
+        background-color: #2E2E2E; /* Button background color */
+        color: white; /* Button text color */
+       </string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <customwidgets>
+  <customwidget>
+   <class>CAdvancedListWidget</class>
+   <extends>QListWidget</extends>
+   <header>AdvancedListWidget.h</header>
+   <slots>
+    <signal>mouseMoveEvent(QMouseEvent*)</signal>
+   </slots>
+  </customwidget>
+  <customwidget>
+   <class>CAdvancedGroupBox</class>
+   <extends>QGroupBox</extends>
+   <header>AdvancedGroupBox.h</header>
+   <container>1</container>
+   <slots>
+    <signal>leaveEvent(QEvent*)</signal>
+   </slots>
+  </customwidget>
+ </customwidgets>
+ <tabstops>
+  <tabstop>cbLogSendPackets</tabstop>
+  <tabstop>pbSendFilter</tabstop>
+  <tabstop>cbLogReceivePackets</tabstop>
+  <tabstop>pbRecvFilter</tabstop>
+  <tabstop>cbAutoScroll</tabstop>
+  <tabstop>pbClearLog</tabstop>
+  <tabstop>lwPacketList</tabstop>
+ </tabstops>
+ <connections>
+  <connection>
+   <sender>lwPacketList</sender>
+   <signal>mouseMoveEvent(QMouseEvent*)</signal>
+   <receiver>CPacketUI</receiver>
+   <slot>onAdvancedLWMove(QMouseEvent*)</slot>
+  </connection>
+  <connection>
+   <sender>pbClearLog</sender>
+   <signal>clicked()</signal>
+   <receiver>CPacketUI</receiver>
+   <slot>onLogClearClicked()</slot>
+  </connection>
+  <connection>
+   <sender>gbLoggerSettings</sender>
+   <signal>leaveEvent(QEvent*)</signal>
+   <receiver>CPacketUI</receiver>
+   <slot>onAdvancedGBLeave(QEvent*)</slot>
+  </connection>
+  <connection>
+   <sender>pbSendFilter</sender>
+   <signal>clicked()</signal>
+   <receiver>CPacketUI</receiver>
+   <slot>onSendFilter()</slot>
+  </connection>
+  <connection>
+   <sender>pbRecvFilter</sender>
+   <signal>clicked()</signal>
+   <receiver>CPacketUI</receiver>
+   <slot>onRecvFilter()</slot>
+  </connection>
+  <connection>
+   <sender>pbSendBlocker</sender>
+   <signal>clicked()</signal>
+   <receiver>CPacketUI</receiver>
+   <slot>onSendBlocker()</slot>
+  </connection>
+  <connection>
+   <sender>pbRecvBlocker</sender>
+   <signal>clicked()</signal>
+   <receiver>CPacketUI</receiver>
+   <slot>onRecvBlocker()</slot>
+  </connection>
+  <connection>
+   <sender>pbSender</sender>
+   <signal>clicked()</signal>
+   <receiver>CPacketUI</receiver>
+   <slot>onSenderPressed()</slot>
+  </connection>
+  <connection>
+   <sender>pbDamageCounter</sender>
+   <signal>clicked()</signal>
+   <receiver>CPacketUI</receiver>
+   <slot>onDamageCounterPressed()</slot>
+  </connection>
+ </connections>
+ <slots>
+  <slot>onAdvancedLWMove(QMouseEvent*)</slot>
+  <slot>onLogClearClicked()</slot>
+  <slot>onAdvancedGBLeave(QEvent*)</slot>
+  <slot>onSendFilter()</slot>
+  <slot>onRecvFilter()</slot>
+  <slot>onSendBlocker()</slot>
+  <slot>onRecvBlocker()</slot>
+  <slot>onSenderPressed()</slot>
+  <slot>onDamageCounter()</slot>
+ </slots>
+</ui>

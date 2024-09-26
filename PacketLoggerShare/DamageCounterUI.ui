@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>CDamageCounterUI</class>
+ <widget class="QWidget" name="CDamageCounterUI">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1000</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Damage Counter</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <widget class="QTabWidget" name="tabWidget">
+     <property name="currentIndex">
+      <number>0</number>
+     </property>
+     <widget class="QWidget" name="currentRaidTab">
+      <attribute name="title">
+       <string>Current Raid</string>
+      </attribute>
+      <layout class="QVBoxLayout" name="verticalLayout_2">
+       <item>
+        <widget class="QTableWidget" name="currentRaidTable">
+         <property name="columnCount">
+          <number>13</number>
+         </property>
+         <attribute name="horizontalHeaderVisible">
+          <bool>true</bool>
+         </attribute>
+         <attribute name="verticalHeaderVisible">
+          <bool>false</bool>
+         </attribute>
+         <column>
+          <property name="text">
+           <string>Level</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>Character Name</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>Boss Damage</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>Average Boss</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>Max Hit</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>Hits</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>Miss</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>Crit</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>All Hits</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>Total Damage</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>Average Total</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>Gold</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>Deaths</string>
+          </property>
+         </column>
+        </widget>
+       </item>
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout_1">
+         <item>
+          <widget class="QPushButton" name="exportCurrentRaidButton">
+           <property name="text">
+            <string>Export Table</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="resetCurrentRaidButton">
+           <property name="text">
+            <string>Reset</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QWidget" name="allRaidsTab">
+      <attribute name="title">
+       <string>All Raids</string>
+      </attribute>
+      <layout class="QVBoxLayout" name="verticalLayout_3">
+       <item>
+        <widget class="QTableWidget" name="allRaidsTable">
+         <property name="columnCount">
+          <number>13</number>
+         </property>
+         <attribute name="horizontalHeaderVisible">
+          <bool>true</bool>
+         </attribute>
+         <attribute name="verticalHeaderVisible">
+          <bool>false</bool>
+         </attribute>
+         <column>
+          <property name="text">
+           <string>Level</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>Character Name</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>Boss Damage</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>Average Boss</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>Max Hit</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>Hits</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>Miss</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>Crit</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>All Hits</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>Total Damage</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>Average Total</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>Gold</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>Deaths</string>
+          </property>
+         </column>
+        </widget>
+       </item>
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout_2">
+         <item>
+          <widget class="QPushButton" name="exportAllRaidsButton">
+           <property name="text">
+            <string>Export Table</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="resetAllRaidsButton">
+           <property name="text">
+            <string>Reset</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QWidget" name="landOfLifeTab">
+      <attribute name="title">
+       <string>Land of Life</string>
+      </attribute>
+      <layout class="QVBoxLayout" name="verticalLayout_4">
+       <item>
+        <widget class="QTableWidget" name="landOfLifeTable">
+         <property name="columnCount">
+          <number>0</number>
+         </property>
+         <attribute name="horizontalHeaderVisible">
+          <bool>true</bool>
+         </attribute>
+         <attribute name="verticalHeaderVisible">
+          <bool>false</bool>
+         </attribute>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QWidget" name="instantCombatTab">
+      <attribute name="title">
+       <string>Instant Combat</string>
+      </attribute>
+      <layout class="QVBoxLayout" name="verticalLayout_5">
+       <item>
+        <widget class="QTableWidget" name="instantCombatTable">
+         <property name="columnCount">
+          <number>5</number>
+         </property>
+         <attribute name="horizontalHeaderVisible">
+          <bool>true</bool>
+         </attribute>
+         <attribute name="verticalHeaderVisible">
+          <bool>false</bool>
+         </attribute>
+         <column>
+          <property name="text">
+           <string>Level</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>Character Name</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>Damage Dealt</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>Damage Remaining</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>Damage Required This Round</string>
+          </property>
+         </column>
+        </widget>
+       </item>
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout_3">
+         <item>
+          <widget class="QPushButton" name="whitelistToggleButton">
+           <property name="text">
+            <string>Activate Whitelist</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="whitelistSettingsButton">
+           <property name="text">
+            <string>Whitelist Settings</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+      </layout>
+     </widget>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

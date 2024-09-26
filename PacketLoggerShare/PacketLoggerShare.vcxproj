@@ -1,0 +1,155 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{689EBA17-38D7-475D-975E-278321E5A818}</ProjectGuid>
+    <Keyword>QtVS_v304</Keyword>
+    <WindowsTargetPlatformVersion Condition="'$(Configuration)|$(Platform)' == 'Debug|Win32'">10.0</WindowsTargetPlatformVersion>
+    <WindowsTargetPlatformVersion Condition="'$(Configuration)|$(Platform)' == 'Release|Win32'">10.0</WindowsTargetPlatformVersion>
+    <QtMsBuild Condition="'$(QtMsBuild)'=='' OR !Exists('$(QtMsBuild)\qt.targets')">$(MSBuildProjectDirectory)\QtMsBuild</QtMsBuild>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v143</PlatformToolset>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Condition="Exists('$(QtMsBuild)\qt_defaults.props')">
+    <Import Project="$(QtMsBuild)\qt_defaults.props" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|Win32'" Label="QtSettings">
+    <QtInstall>5.15.2_msvc2019</QtInstall>
+    <QtModules>core;gui;network;widgets</QtModules>
+    <QtBuildConfig>debug</QtBuildConfig>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|Win32'" Label="QtSettings">
+    <QtInstall>5.15.2_msvc2019</QtInstall>
+    <QtModules>core;gui;network;widgets</QtModules>
+    <QtBuildConfig>release</QtBuildConfig>
+  </PropertyGroup>
+  <Target Name="QtMsBuildNotFound" BeforeTargets="CustomBuild;ClCompile" Condition="!Exists('$(QtMsBuild)\qt.targets') or !Exists('$(QtMsBuild)\qt.props')">
+    <Message Importance="High" Text="QtMsBuild: could not locate qt.targets, qt.props; project may not build correctly." />
+  </Target>
+  <ImportGroup Label="ExtensionSettings" />
+  <ImportGroup Label="Shared" />
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)' == 'Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(QtMsBuild)\Qt.props" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)' == 'Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(QtMsBuild)\Qt.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|Win32'">
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|Win32'">
+    <IncludePath>C:\Qt\5.15.2\msvc2019\include;C:\Users\Realm\source\repos\PacketLogger32bit\PacketLogger\PacketLogger\minhook-master\include;C:\Qt\5.15.2\msvc2019\include\QtCore;C:\Qt\5.15.2\msvc2019\include\QtNetwork;C:\Qt\5.15.2\msvc2019\include\QtWidgets;C:\Qt\5.15.2\msvc2019\include\QtGui;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Qt\5.15.2\msvc2019\lib;C:\Users\Realm\source\repos\PacketLogger32bit\PacketLogger\PacketLogger\minhook-master\build\VC17\lib\Release;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <AdditionalIncludeDirectories>C:\Qt\5.15.2\msvc2019\include;C:\Users\Realm\source\repos\PacketLogger32bit\PacketLogger\PacketLogger\minhook-master\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_WINDLL;$(Qt_DEFINES_);%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <AdditionalLibraryDirectories>C:\Users\Realm\source\repos\PacketLogger32bit\PacketLogger\PacketLogger\minhook-master\build\VC17\lib\Release;C:\Users\Realm\source\repos\PacketLogger32bit\PacketLogger\PacketLogger\minhook-master\build\VC17\lib\Debug;C:\Users\Realm\source\repos\PacketLogger32bit\PacketLogger\PacketLogger\minhook-master\build\VC17\bin\Release;C:\Users\Realm\source\repos\PacketLogger32bit\PacketLogger\PacketLogger\minhook-master\build\VC17\bin\Debug;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>Qt5Core.lib;Qt5Gui.lib;Qt5Network.lib;Qt5Widgets.lib;libMinHook.x86.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|Win32'" Label="Configuration">
+    <ClCompile>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)' == 'Release|Win32'" Label="Configuration">
+    <ClCompile>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="Memory.cpp" />
+    <ClCompile Include="PacketSenderUI.cpp" />
+    <ClCompile Include="PacketUI.cpp" />
+    <ClCompile Include="TcpServer.cpp" />
+    <ClCompile Include="WhitelistSettingsUI.cpp" />
+    <QtRcc Include="PacketLoggerShare.qrc" />
+    <QtUic Include="DamageCounterUI.ui" />
+    <ClInclude Include="AddressFunctions.h" />
+    <ClCompile Include="AddressFunctions.cpp" />
+    <ClCompile Include="AddressManager.cpp" />
+    <ClCompile Include="AdvancedGroupBox.cpp" />
+    <ClCompile Include="AdvancedListWidget.cpp" />
+    <ClCompile Include="Config.cpp" />
+    <ClCompile Include="DamageCounterUI.cpp" />
+    <ClCompile Include="FilterUI.cpp" />
+    <QtMoc Include="FilterUI.h" />
+    <ClCompile Include="HookFunctions.cpp" />
+    <ClCompile Include="HookManager.cpp" />
+    <ClCompile Include="main.cpp" />
+    <QtUic Include="FilterUI.ui" />
+    <QtUic Include="PacketSenderUI.ui" />
+    <QtUic Include="PacketUI.ui" />
+    <QtUic Include="WhitelistSettingsUI.ui" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AddressManager.h" />
+    <QtMoc Include="AdvancedGroupBox.h" />
+    <QtMoc Include="AdvancedListWidget.h" />
+    <ClInclude Include="Config.h" />
+    <QtMoc Include="DamageCounterUI.h" />
+    <ClInclude Include="Defines.h" />
+    <ClInclude Include="HookFunctions.h" />
+    <ClInclude Include="HookManager.h" />
+    <ClInclude Include="Memory.h" />
+    <QtMoc Include="PacketSenderUI.h" />
+    <QtMoc Include="PacketUI.h" />
+    <QtMoc Include="TcpServer.h" />
+    <ClInclude Include="Typedef.h" />
+    <QtMoc Include="WhitelistSettingsUI.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Condition="Exists('$(QtMsBuild)\qt.targets')">
+    <Import Project="$(QtMsBuild)\qt.targets" />
+  </ImportGroup>
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

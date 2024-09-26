@@ -1,0 +1,533 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Realm\\source\\repos\\PacketLoggerShare\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{689EBA17-38D7-475D-975E-278321E5A818}|PacketLoggerShare\\PacketLoggerShare.vcxproj|C:\\Users\\Realm\\source\\repos\\PacketLoggerShare\\PacketLoggerShare\\AdvancedGroupBox.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{689EBA17-38D7-475D-975E-278321E5A818}|PacketLoggerShare\\PacketLoggerShare.vcxproj|solutionrelative:PacketLoggerShare\\AdvancedGroupBox.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{689EBA17-38D7-475D-975E-278321E5A818}|PacketLoggerShare\\PacketLoggerShare.vcxproj|C:\\Users\\Realm\\source\\repos\\PacketLoggerShare\\PacketLoggerShare\\WhitelistSettingsUI.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{689EBA17-38D7-475D-975E-278321E5A818}|PacketLoggerShare\\PacketLoggerShare.vcxproj|solutionrelative:PacketLoggerShare\\WhitelistSettingsUI.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{689EBA17-38D7-475D-975E-278321E5A818}|PacketLoggerShare\\PacketLoggerShare.vcxproj|C:\\Users\\Realm\\source\\repos\\PacketLoggerShare\\PacketLoggerShare\\TcpServer.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{689EBA17-38D7-475D-975E-278321E5A818}|PacketLoggerShare\\PacketLoggerShare.vcxproj|solutionrelative:PacketLoggerShare\\TcpServer.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{689EBA17-38D7-475D-975E-278321E5A818}|PacketLoggerShare\\PacketLoggerShare.vcxproj|C:\\Users\\Realm\\source\\repos\\PacketLoggerShare\\PacketLoggerShare\\PacketUI.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{689EBA17-38D7-475D-975E-278321E5A818}|PacketLoggerShare\\PacketLoggerShare.vcxproj|solutionrelative:PacketLoggerShare\\PacketUI.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{689EBA17-38D7-475D-975E-278321E5A818}|PacketLoggerShare\\PacketLoggerShare.vcxproj|C:\\Users\\Realm\\source\\repos\\PacketLoggerShare\\PacketLoggerShare\\PacketSenderUI.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{689EBA17-38D7-475D-975E-278321E5A818}|PacketLoggerShare\\PacketLoggerShare.vcxproj|solutionrelative:PacketLoggerShare\\PacketSenderUI.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{689EBA17-38D7-475D-975E-278321E5A818}|PacketLoggerShare\\PacketLoggerShare.vcxproj|C:\\Users\\Realm\\source\\repos\\PacketLoggerShare\\PacketLoggerShare\\Memory.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{689EBA17-38D7-475D-975E-278321E5A818}|PacketLoggerShare\\PacketLoggerShare.vcxproj|solutionrelative:PacketLoggerShare\\Memory.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{689EBA17-38D7-475D-975E-278321E5A818}|PacketLoggerShare\\PacketLoggerShare.vcxproj|C:\\Users\\Realm\\source\\repos\\PacketLoggerShare\\PacketLoggerShare\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{689EBA17-38D7-475D-975E-278321E5A818}|PacketLoggerShare\\PacketLoggerShare.vcxproj|solutionrelative:PacketLoggerShare\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{689EBA17-38D7-475D-975E-278321E5A818}|PacketLoggerShare\\PacketLoggerShare.vcxproj|C:\\Users\\Realm\\source\\repos\\PacketLoggerShare\\PacketLoggerShare\\HookManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{689EBA17-38D7-475D-975E-278321E5A818}|PacketLoggerShare\\PacketLoggerShare.vcxproj|solutionrelative:PacketLoggerShare\\HookManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{689EBA17-38D7-475D-975E-278321E5A818}|PacketLoggerShare\\PacketLoggerShare.vcxproj|C:\\Users\\Realm\\source\\repos\\PacketLoggerShare\\PacketLoggerShare\\HookFunctions.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{689EBA17-38D7-475D-975E-278321E5A818}|PacketLoggerShare\\PacketLoggerShare.vcxproj|solutionrelative:PacketLoggerShare\\HookFunctions.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{689EBA17-38D7-475D-975E-278321E5A818}|PacketLoggerShare\\PacketLoggerShare.vcxproj|C:\\Users\\Realm\\source\\repos\\PacketLoggerShare\\PacketLoggerShare\\FilterUI.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{689EBA17-38D7-475D-975E-278321E5A818}|PacketLoggerShare\\PacketLoggerShare.vcxproj|solutionrelative:PacketLoggerShare\\FilterUI.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{689EBA17-38D7-475D-975E-278321E5A818}|PacketLoggerShare\\PacketLoggerShare.vcxproj|C:\\Users\\Realm\\source\\repos\\PacketLoggerShare\\PacketLoggerShare\\DamageCounterUI.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{689EBA17-38D7-475D-975E-278321E5A818}|PacketLoggerShare\\PacketLoggerShare.vcxproj|solutionrelative:PacketLoggerShare\\DamageCounterUI.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{689EBA17-38D7-475D-975E-278321E5A818}|PacketLoggerShare\\PacketLoggerShare.vcxproj|C:\\Users\\Realm\\source\\repos\\PacketLoggerShare\\PacketLoggerShare\\Config.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{689EBA17-38D7-475D-975E-278321E5A818}|PacketLoggerShare\\PacketLoggerShare.vcxproj|solutionrelative:PacketLoggerShare\\Config.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{689EBA17-38D7-475D-975E-278321E5A818}|PacketLoggerShare\\PacketLoggerShare.vcxproj|C:\\Users\\Realm\\source\\repos\\PacketLoggerShare\\PacketLoggerShare\\AdvancedListWidget.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{689EBA17-38D7-475D-975E-278321E5A818}|PacketLoggerShare\\PacketLoggerShare.vcxproj|solutionrelative:PacketLoggerShare\\AdvancedListWidget.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{689EBA17-38D7-475D-975E-278321E5A818}|PacketLoggerShare\\PacketLoggerShare.vcxproj|C:\\Users\\Realm\\source\\repos\\PacketLoggerShare\\PacketLoggerShare\\AddressManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{689EBA17-38D7-475D-975E-278321E5A818}|PacketLoggerShare\\PacketLoggerShare.vcxproj|solutionrelative:PacketLoggerShare\\AddressManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{689EBA17-38D7-475D-975E-278321E5A818}|PacketLoggerShare\\PacketLoggerShare.vcxproj|C:\\Users\\Realm\\source\\repos\\PacketLoggerShare\\PacketLoggerShare\\AddressFunctions.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{689EBA17-38D7-475D-975E-278321E5A818}|PacketLoggerShare\\PacketLoggerShare.vcxproj|solutionrelative:PacketLoggerShare\\AddressFunctions.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{689EBA17-38D7-475D-975E-278321E5A818}|PacketLoggerShare\\PacketLoggerShare.vcxproj|C:\\Users\\Realm\\source\\repos\\PacketLoggerShare\\PacketLoggerShare\\WhitelistSettingsUI.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{689EBA17-38D7-475D-975E-278321E5A818}|PacketLoggerShare\\PacketLoggerShare.vcxproj|solutionrelative:PacketLoggerShare\\WhitelistSettingsUI.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{689EBA17-38D7-475D-975E-278321E5A818}|PacketLoggerShare\\PacketLoggerShare.vcxproj|C:\\Users\\Realm\\source\\repos\\PacketLoggerShare\\PacketLoggerShare\\Typedef.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{689EBA17-38D7-475D-975E-278321E5A818}|PacketLoggerShare\\PacketLoggerShare.vcxproj|solutionrelative:PacketLoggerShare\\Typedef.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{689EBA17-38D7-475D-975E-278321E5A818}|PacketLoggerShare\\PacketLoggerShare.vcxproj|C:\\Users\\Realm\\source\\repos\\PacketLoggerShare\\PacketLoggerShare\\TcpServer.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{689EBA17-38D7-475D-975E-278321E5A818}|PacketLoggerShare\\PacketLoggerShare.vcxproj|solutionrelative:PacketLoggerShare\\TcpServer.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{689EBA17-38D7-475D-975E-278321E5A818}|PacketLoggerShare\\PacketLoggerShare.vcxproj|C:\\Users\\Realm\\source\\repos\\PacketLoggerShare\\PacketLoggerShare\\PacketUI.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{689EBA17-38D7-475D-975E-278321E5A818}|PacketLoggerShare\\PacketLoggerShare.vcxproj|solutionrelative:PacketLoggerShare\\PacketUI.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{689EBA17-38D7-475D-975E-278321E5A818}|PacketLoggerShare\\PacketLoggerShare.vcxproj|C:\\Users\\Realm\\source\\repos\\PacketLoggerShare\\PacketLoggerShare\\PacketSenderUI.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{689EBA17-38D7-475D-975E-278321E5A818}|PacketLoggerShare\\PacketLoggerShare.vcxproj|solutionrelative:PacketLoggerShare\\PacketSenderUI.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{689EBA17-38D7-475D-975E-278321E5A818}|PacketLoggerShare\\PacketLoggerShare.vcxproj|C:\\Users\\Realm\\source\\repos\\PacketLoggerShare\\PacketLoggerShare\\Memory.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{689EBA17-38D7-475D-975E-278321E5A818}|PacketLoggerShare\\PacketLoggerShare.vcxproj|solutionrelative:PacketLoggerShare\\Memory.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{689EBA17-38D7-475D-975E-278321E5A818}|PacketLoggerShare\\PacketLoggerShare.vcxproj|C:\\Users\\Realm\\source\\repos\\PacketLoggerShare\\PacketLoggerShare\\HookManager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{689EBA17-38D7-475D-975E-278321E5A818}|PacketLoggerShare\\PacketLoggerShare.vcxproj|solutionrelative:PacketLoggerShare\\HookManager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{689EBA17-38D7-475D-975E-278321E5A818}|PacketLoggerShare\\PacketLoggerShare.vcxproj|C:\\Users\\Realm\\source\\repos\\PacketLoggerShare\\PacketLoggerShare\\HookFunctions.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{689EBA17-38D7-475D-975E-278321E5A818}|PacketLoggerShare\\PacketLoggerShare.vcxproj|solutionrelative:PacketLoggerShare\\HookFunctions.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{689EBA17-38D7-475D-975E-278321E5A818}|PacketLoggerShare\\PacketLoggerShare.vcxproj|C:\\Users\\Realm\\source\\repos\\PacketLoggerShare\\PacketLoggerShare\\FilterUI.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{689EBA17-38D7-475D-975E-278321E5A818}|PacketLoggerShare\\PacketLoggerShare.vcxproj|solutionrelative:PacketLoggerShare\\FilterUI.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{689EBA17-38D7-475D-975E-278321E5A818}|PacketLoggerShare\\PacketLoggerShare.vcxproj|C:\\Users\\Realm\\source\\repos\\PacketLoggerShare\\PacketLoggerShare\\Defines.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{689EBA17-38D7-475D-975E-278321E5A818}|PacketLoggerShare\\PacketLoggerShare.vcxproj|solutionrelative:PacketLoggerShare\\Defines.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{689EBA17-38D7-475D-975E-278321E5A818}|PacketLoggerShare\\PacketLoggerShare.vcxproj|C:\\Users\\Realm\\source\\repos\\PacketLoggerShare\\PacketLoggerShare\\DamageCounterUI.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{689EBA17-38D7-475D-975E-278321E5A818}|PacketLoggerShare\\PacketLoggerShare.vcxproj|solutionrelative:PacketLoggerShare\\DamageCounterUI.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{689EBA17-38D7-475D-975E-278321E5A818}|PacketLoggerShare\\PacketLoggerShare.vcxproj|C:\\Users\\Realm\\source\\repos\\PacketLoggerShare\\PacketLoggerShare\\Config.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{689EBA17-38D7-475D-975E-278321E5A818}|PacketLoggerShare\\PacketLoggerShare.vcxproj|solutionrelative:PacketLoggerShare\\Config.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{689EBA17-38D7-475D-975E-278321E5A818}|PacketLoggerShare\\PacketLoggerShare.vcxproj|C:\\Users\\Realm\\source\\repos\\PacketLoggerShare\\PacketLoggerShare\\AdvancedListWidget.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{689EBA17-38D7-475D-975E-278321E5A818}|PacketLoggerShare\\PacketLoggerShare.vcxproj|solutionrelative:PacketLoggerShare\\AdvancedListWidget.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{689EBA17-38D7-475D-975E-278321E5A818}|PacketLoggerShare\\PacketLoggerShare.vcxproj|C:\\Users\\Realm\\source\\repos\\PacketLoggerShare\\PacketLoggerShare\\AdvancedGroupBox.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{689EBA17-38D7-475D-975E-278321E5A818}|PacketLoggerShare\\PacketLoggerShare.vcxproj|solutionrelative:PacketLoggerShare\\AdvancedGroupBox.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{689EBA17-38D7-475D-975E-278321E5A818}|PacketLoggerShare\\PacketLoggerShare.vcxproj|C:\\Users\\Realm\\source\\repos\\PacketLoggerShare\\PacketLoggerShare\\AddressManager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{689EBA17-38D7-475D-975E-278321E5A818}|PacketLoggerShare\\PacketLoggerShare.vcxproj|solutionrelative:PacketLoggerShare\\AddressManager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Realm\\source\\repos\\PacketLoggerShare\\PacketLoggerShare\\Debug\\uic\\ui_PacketUI.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:PacketLoggerShare\\Debug\\uic\\ui_PacketUI.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Realm\\source\\repos\\PacketLoggerShare\\PacketLoggerShare\\AddressFunctions.h.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:PacketLoggerShare\\AddressFunctions.h.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 14,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "ui_PacketUI.h",
+              "DocumentMoniker": "C:\\Users\\Realm\\source\\repos\\PacketLoggerShare\\PacketLoggerShare\\Debug\\uic\\ui_PacketUI.h",
+              "RelativeDocumentMoniker": "PacketLoggerShare\\Debug\\uic\\ui_PacketUI.h",
+              "ToolTip": "C:\\Users\\Realm\\source\\repos\\PacketLoggerShare\\PacketLoggerShare\\Debug\\uic\\ui_PacketUI.h",
+              "RelativeToolTip": "PacketLoggerShare\\Debug\\uic\\ui_PacketUI.h",
+              "ViewState": "AQIAAAcAAAAAAAAAAADgvx4AAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-09-26T07:45:23.828Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "main.cpp",
+              "DocumentMoniker": "C:\\Users\\Realm\\source\\repos\\PacketLoggerShare\\PacketLoggerShare\\main.cpp",
+              "RelativeDocumentMoniker": "PacketLoggerShare\\main.cpp",
+              "ToolTip": "C:\\Users\\Realm\\source\\repos\\PacketLoggerShare\\PacketLoggerShare\\main.cpp",
+              "RelativeToolTip": "PacketLoggerShare\\main.cpp",
+              "ViewState": "AQIAADEAAAAAAAAAAAAQwFEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-09-26T07:38:28.653Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "AddressFunctions.h.h",
+              "DocumentMoniker": "C:\\Users\\Realm\\source\\repos\\PacketLoggerShare\\PacketLoggerShare\\AddressFunctions.h.h",
+              "RelativeDocumentMoniker": "PacketLoggerShare\\AddressFunctions.h.h",
+              "ToolTip": "C:\\Users\\Realm\\source\\repos\\PacketLoggerShare\\PacketLoggerShare\\AddressFunctions.h.h",
+              "RelativeToolTip": "PacketLoggerShare\\AddressFunctions.h.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-09-26T07:40:08.161Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "WhitelistSettingsUI.cpp",
+              "DocumentMoniker": "C:\\Users\\Realm\\source\\repos\\PacketLoggerShare\\PacketLoggerShare\\WhitelistSettingsUI.cpp",
+              "RelativeDocumentMoniker": "PacketLoggerShare\\WhitelistSettingsUI.cpp",
+              "ToolTip": "C:\\Users\\Realm\\source\\repos\\PacketLoggerShare\\PacketLoggerShare\\WhitelistSettingsUI.cpp",
+              "RelativeToolTip": "PacketLoggerShare\\WhitelistSettingsUI.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-09-26T07:40:06.341Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TcpServer.cpp",
+              "DocumentMoniker": "C:\\Users\\Realm\\source\\repos\\PacketLoggerShare\\PacketLoggerShare\\TcpServer.cpp",
+              "RelativeDocumentMoniker": "PacketLoggerShare\\TcpServer.cpp",
+              "ToolTip": "C:\\Users\\Realm\\source\\repos\\PacketLoggerShare\\PacketLoggerShare\\TcpServer.cpp",
+              "RelativeToolTip": "PacketLoggerShare\\TcpServer.cpp",
+              "ViewState": "AQIAAFAAAAAAAAAAAAAQwHAAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-09-26T07:39:59.358Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PacketUI.cpp",
+              "DocumentMoniker": "C:\\Users\\Realm\\source\\repos\\PacketLoggerShare\\PacketLoggerShare\\PacketUI.cpp",
+              "RelativeDocumentMoniker": "PacketLoggerShare\\PacketUI.cpp",
+              "ToolTip": "C:\\Users\\Realm\\source\\repos\\PacketLoggerShare\\PacketLoggerShare\\PacketUI.cpp",
+              "RelativeToolTip": "PacketLoggerShare\\PacketUI.cpp",
+              "ViewState": "AQIAAE4BAAAAAAAAAAAQwG4BAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-09-26T07:39:48.789Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PacketSenderUI.cpp",
+              "DocumentMoniker": "C:\\Users\\Realm\\source\\repos\\PacketLoggerShare\\PacketLoggerShare\\PacketSenderUI.cpp",
+              "RelativeDocumentMoniker": "PacketLoggerShare\\PacketSenderUI.cpp",
+              "ToolTip": "C:\\Users\\Realm\\source\\repos\\PacketLoggerShare\\PacketLoggerShare\\PacketSenderUI.cpp",
+              "RelativeToolTip": "PacketLoggerShare\\PacketSenderUI.cpp",
+              "ViewState": "AQIAAFAAAAAAAAAAAAAQwHAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-09-26T07:39:44.348Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Memory.cpp",
+              "DocumentMoniker": "C:\\Users\\Realm\\source\\repos\\PacketLoggerShare\\PacketLoggerShare\\Memory.cpp",
+              "RelativeDocumentMoniker": "PacketLoggerShare\\Memory.cpp",
+              "ToolTip": "C:\\Users\\Realm\\source\\repos\\PacketLoggerShare\\PacketLoggerShare\\Memory.cpp",
+              "RelativeToolTip": "PacketLoggerShare\\Memory.cpp",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAQwC8AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-09-26T07:39:35.612Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "HookManager.cpp",
+              "DocumentMoniker": "C:\\Users\\Realm\\source\\repos\\PacketLoggerShare\\PacketLoggerShare\\HookManager.cpp",
+              "RelativeDocumentMoniker": "PacketLoggerShare\\HookManager.cpp",
+              "ToolTip": "C:\\Users\\Realm\\source\\repos\\PacketLoggerShare\\PacketLoggerShare\\HookManager.cpp",
+              "RelativeToolTip": "PacketLoggerShare\\HookManager.cpp",
+              "ViewState": "AQIAAFQAAAAAAAAAAAAQwHQAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-09-26T07:39:28.254Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "HookFunctions.cpp",
+              "DocumentMoniker": "C:\\Users\\Realm\\source\\repos\\PacketLoggerShare\\PacketLoggerShare\\HookFunctions.cpp",
+              "RelativeDocumentMoniker": "PacketLoggerShare\\HookFunctions.cpp",
+              "ToolTip": "C:\\Users\\Realm\\source\\repos\\PacketLoggerShare\\PacketLoggerShare\\HookFunctions.cpp",
+              "RelativeToolTip": "PacketLoggerShare\\HookFunctions.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-09-26T07:39:22.729Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "FilterUI.cpp",
+              "DocumentMoniker": "C:\\Users\\Realm\\source\\repos\\PacketLoggerShare\\PacketLoggerShare\\FilterUI.cpp",
+              "RelativeDocumentMoniker": "PacketLoggerShare\\FilterUI.cpp",
+              "ToolTip": "C:\\Users\\Realm\\source\\repos\\PacketLoggerShare\\PacketLoggerShare\\FilterUI.cpp",
+              "RelativeToolTip": "PacketLoggerShare\\FilterUI.cpp",
+              "ViewState": "AQIAAH8AAAAAAAAAAAAQwJ8AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-09-26T07:39:17.021Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "DamageCounterUI.cpp",
+              "DocumentMoniker": "C:\\Users\\Realm\\source\\repos\\PacketLoggerShare\\PacketLoggerShare\\DamageCounterUI.cpp",
+              "RelativeDocumentMoniker": "PacketLoggerShare\\DamageCounterUI.cpp",
+              "ToolTip": "C:\\Users\\Realm\\source\\repos\\PacketLoggerShare\\PacketLoggerShare\\DamageCounterUI.cpp",
+              "RelativeToolTip": "PacketLoggerShare\\DamageCounterUI.cpp",
+              "ViewState": "AQIAAJsGAAAAAAAAAAAQwLsGAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-09-26T07:39:11.68Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Config.cpp",
+              "DocumentMoniker": "C:\\Users\\Realm\\source\\repos\\PacketLoggerShare\\PacketLoggerShare\\Config.cpp",
+              "RelativeDocumentMoniker": "PacketLoggerShare\\Config.cpp",
+              "ToolTip": "C:\\Users\\Realm\\source\\repos\\PacketLoggerShare\\PacketLoggerShare\\Config.cpp",
+              "RelativeToolTip": "PacketLoggerShare\\Config.cpp",
+              "ViewState": "AQIAACgAAAAAAAAAAAAQwEgAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-09-26T07:39:05.99Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "AdvancedListWidget.cpp",
+              "DocumentMoniker": "C:\\Users\\Realm\\source\\repos\\PacketLoggerShare\\PacketLoggerShare\\AdvancedListWidget.cpp",
+              "RelativeDocumentMoniker": "PacketLoggerShare\\AdvancedListWidget.cpp",
+              "ToolTip": "C:\\Users\\Realm\\source\\repos\\PacketLoggerShare\\PacketLoggerShare\\AdvancedListWidget.cpp",
+              "RelativeToolTip": "PacketLoggerShare\\AdvancedListWidget.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-09-26T07:39:00.98Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AdvancedGroupBox.cpp",
+              "DocumentMoniker": "C:\\Users\\Realm\\source\\repos\\PacketLoggerShare\\PacketLoggerShare\\AdvancedGroupBox.cpp",
+              "RelativeDocumentMoniker": "PacketLoggerShare\\AdvancedGroupBox.cpp",
+              "ToolTip": "C:\\Users\\Realm\\source\\repos\\PacketLoggerShare\\PacketLoggerShare\\AdvancedGroupBox.cpp",
+              "RelativeToolTip": "PacketLoggerShare\\AdvancedGroupBox.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-09-26T07:38:53.135Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "AddressManager.cpp",
+              "DocumentMoniker": "C:\\Users\\Realm\\source\\repos\\PacketLoggerShare\\PacketLoggerShare\\AddressManager.cpp",
+              "RelativeDocumentMoniker": "PacketLoggerShare\\AddressManager.cpp",
+              "ToolTip": "C:\\Users\\Realm\\source\\repos\\PacketLoggerShare\\PacketLoggerShare\\AddressManager.cpp",
+              "RelativeToolTip": "PacketLoggerShare\\AddressManager.cpp",
+              "ViewState": "AQIAAC4AAAAAAAAAAAAQwE4AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-09-26T07:38:44.838Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "AddressFunctions.cpp",
+              "DocumentMoniker": "C:\\Users\\Realm\\source\\repos\\PacketLoggerShare\\PacketLoggerShare\\AddressFunctions.cpp",
+              "RelativeDocumentMoniker": "PacketLoggerShare\\AddressFunctions.cpp",
+              "ToolTip": "C:\\Users\\Realm\\source\\repos\\PacketLoggerShare\\PacketLoggerShare\\AddressFunctions.cpp",
+              "RelativeToolTip": "PacketLoggerShare\\AddressFunctions.cpp",
+              "ViewState": "AQIAABsAAAAAAAAAAAAQwDsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-09-26T07:38:39.021Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "WhitelistSettingsUI.h",
+              "DocumentMoniker": "C:\\Users\\Realm\\source\\repos\\PacketLoggerShare\\PacketLoggerShare\\WhitelistSettingsUI.h",
+              "RelativeDocumentMoniker": "PacketLoggerShare\\WhitelistSettingsUI.h",
+              "ToolTip": "C:\\Users\\Realm\\source\\repos\\PacketLoggerShare\\PacketLoggerShare\\WhitelistSettingsUI.h",
+              "RelativeToolTip": "PacketLoggerShare\\WhitelistSettingsUI.h",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAQwCQAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-09-26T07:38:21.75Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Typedef.h",
+              "DocumentMoniker": "C:\\Users\\Realm\\source\\repos\\PacketLoggerShare\\PacketLoggerShare\\Typedef.h",
+              "RelativeDocumentMoniker": "PacketLoggerShare\\Typedef.h",
+              "ToolTip": "C:\\Users\\Realm\\source\\repos\\PacketLoggerShare\\PacketLoggerShare\\Typedef.h",
+              "RelativeToolTip": "PacketLoggerShare\\Typedef.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-09-26T07:38:14.112Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "TcpServer.h",
+              "DocumentMoniker": "C:\\Users\\Realm\\source\\repos\\PacketLoggerShare\\PacketLoggerShare\\TcpServer.h",
+              "RelativeDocumentMoniker": "PacketLoggerShare\\TcpServer.h",
+              "ToolTip": "C:\\Users\\Realm\\source\\repos\\PacketLoggerShare\\PacketLoggerShare\\TcpServer.h",
+              "RelativeToolTip": "PacketLoggerShare\\TcpServer.h",
+              "ViewState": "AQIAABYAAAAAAAAAAAAQwDYAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-09-26T07:38:09.597Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "PacketUI.h",
+              "DocumentMoniker": "C:\\Users\\Realm\\source\\repos\\PacketLoggerShare\\PacketLoggerShare\\PacketUI.h",
+              "RelativeDocumentMoniker": "PacketLoggerShare\\PacketUI.h",
+              "ToolTip": "C:\\Users\\Realm\\source\\repos\\PacketLoggerShare\\PacketLoggerShare\\PacketUI.h",
+              "RelativeToolTip": "PacketLoggerShare\\PacketUI.h",
+              "ViewState": "AQIAACIAAAAAAAAAAAAQwEIAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-09-26T07:38:03.808Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "PacketSenderUI.h",
+              "DocumentMoniker": "C:\\Users\\Realm\\source\\repos\\PacketLoggerShare\\PacketLoggerShare\\PacketSenderUI.h",
+              "RelativeDocumentMoniker": "PacketLoggerShare\\PacketSenderUI.h",
+              "ToolTip": "C:\\Users\\Realm\\source\\repos\\PacketLoggerShare\\PacketLoggerShare\\PacketSenderUI.h",
+              "RelativeToolTip": "PacketLoggerShare\\PacketSenderUI.h",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAQwCUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-09-26T07:37:59.328Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Memory.h",
+              "DocumentMoniker": "C:\\Users\\Realm\\source\\repos\\PacketLoggerShare\\PacketLoggerShare\\Memory.h",
+              "RelativeDocumentMoniker": "PacketLoggerShare\\Memory.h",
+              "ToolTip": "C:\\Users\\Realm\\source\\repos\\PacketLoggerShare\\PacketLoggerShare\\Memory.h",
+              "RelativeToolTip": "PacketLoggerShare\\Memory.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-09-26T07:37:54.01Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "HookManager.h",
+              "DocumentMoniker": "C:\\Users\\Realm\\source\\repos\\PacketLoggerShare\\PacketLoggerShare\\HookManager.h",
+              "RelativeDocumentMoniker": "PacketLoggerShare\\HookManager.h",
+              "ToolTip": "C:\\Users\\Realm\\source\\repos\\PacketLoggerShare\\PacketLoggerShare\\HookManager.h",
+              "RelativeToolTip": "PacketLoggerShare\\HookManager.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-09-26T07:37:35.487Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "HookFunctions.h",
+              "DocumentMoniker": "C:\\Users\\Realm\\source\\repos\\PacketLoggerShare\\PacketLoggerShare\\HookFunctions.h",
+              "RelativeDocumentMoniker": "PacketLoggerShare\\HookFunctions.h",
+              "ToolTip": "C:\\Users\\Realm\\source\\repos\\PacketLoggerShare\\PacketLoggerShare\\HookFunctions.h",
+              "RelativeToolTip": "PacketLoggerShare\\HookFunctions.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-09-26T07:37:30.627Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "FilterUI.h",
+              "DocumentMoniker": "C:\\Users\\Realm\\source\\repos\\PacketLoggerShare\\PacketLoggerShare\\FilterUI.h",
+              "RelativeDocumentMoniker": "PacketLoggerShare\\FilterUI.h",
+              "ToolTip": "C:\\Users\\Realm\\source\\repos\\PacketLoggerShare\\PacketLoggerShare\\FilterUI.h",
+              "RelativeToolTip": "PacketLoggerShare\\FilterUI.h",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAQwD4AAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-09-26T07:37:23.809Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Defines.h",
+              "DocumentMoniker": "C:\\Users\\Realm\\source\\repos\\PacketLoggerShare\\PacketLoggerShare\\Defines.h",
+              "RelativeDocumentMoniker": "PacketLoggerShare\\Defines.h",
+              "ToolTip": "C:\\Users\\Realm\\source\\repos\\PacketLoggerShare\\PacketLoggerShare\\Defines.h",
+              "RelativeToolTip": "PacketLoggerShare\\Defines.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAQwAkAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-09-26T07:37:19.159Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "DamageCounterUI.h",
+              "DocumentMoniker": "C:\\Users\\Realm\\source\\repos\\PacketLoggerShare\\PacketLoggerShare\\DamageCounterUI.h",
+              "RelativeDocumentMoniker": "PacketLoggerShare\\DamageCounterUI.h",
+              "ToolTip": "C:\\Users\\Realm\\source\\repos\\PacketLoggerShare\\PacketLoggerShare\\DamageCounterUI.h",
+              "RelativeToolTip": "PacketLoggerShare\\DamageCounterUI.h",
+              "ViewState": "AQIAAJ0AAAAAAAAAAAAQwL0AAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-09-26T07:37:14.874Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Config.h",
+              "DocumentMoniker": "C:\\Users\\Realm\\source\\repos\\PacketLoggerShare\\PacketLoggerShare\\Config.h",
+              "RelativeDocumentMoniker": "PacketLoggerShare\\Config.h",
+              "ToolTip": "C:\\Users\\Realm\\source\\repos\\PacketLoggerShare\\PacketLoggerShare\\Config.h",
+              "RelativeToolTip": "PacketLoggerShare\\Config.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-09-26T07:37:09.932Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "AdvancedListWidget.h",
+              "DocumentMoniker": "C:\\Users\\Realm\\source\\repos\\PacketLoggerShare\\PacketLoggerShare\\AdvancedListWidget.h",
+              "RelativeDocumentMoniker": "PacketLoggerShare\\AdvancedListWidget.h",
+              "ToolTip": "C:\\Users\\Realm\\source\\repos\\PacketLoggerShare\\PacketLoggerShare\\AdvancedListWidget.h",
+              "RelativeToolTip": "PacketLoggerShare\\AdvancedListWidget.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-09-26T07:37:05.315Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "AdvancedGroupBox.h",
+              "DocumentMoniker": "C:\\Users\\Realm\\source\\repos\\PacketLoggerShare\\PacketLoggerShare\\AdvancedGroupBox.h",
+              "RelativeDocumentMoniker": "PacketLoggerShare\\AdvancedGroupBox.h",
+              "ToolTip": "C:\\Users\\Realm\\source\\repos\\PacketLoggerShare\\PacketLoggerShare\\AdvancedGroupBox.h",
+              "RelativeToolTip": "PacketLoggerShare\\AdvancedGroupBox.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-09-26T07:36:59.531Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "AddressManager.h",
+              "DocumentMoniker": "C:\\Users\\Realm\\source\\repos\\PacketLoggerShare\\PacketLoggerShare\\AddressManager.h",
+              "RelativeDocumentMoniker": "PacketLoggerShare\\AddressManager.h",
+              "ToolTip": "C:\\Users\\Realm\\source\\repos\\PacketLoggerShare\\PacketLoggerShare\\AddressManager.h",
+              "RelativeToolTip": "PacketLoggerShare\\AddressManager.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-09-26T07:36:53.392Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

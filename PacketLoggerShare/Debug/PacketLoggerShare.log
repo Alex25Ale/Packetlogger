@@ -1,0 +1,129 @@
+﻿  Reading Qt configuration (C:/Qt/5.15.2/msvc2019/bin/qmake)
+  uic DamageCounterUI.ui
+  uic FilterUI.ui
+  uic PacketSenderUI.ui
+  uic PacketUI.ui
+  uic WhitelistSettingsUI.ui
+  rcc PacketLoggerShare.qrc
+  moc FilterUI.h
+  moc AdvancedListWidget.h
+  moc DamageCounterUI.h
+  moc PacketSenderUI.h
+  moc PacketUI.h
+  moc TcpServer.h
+  moc WhitelistSettingsUI.h
+   RCC: Warning: No resources in 'C:\Users\Realm\source\repos\PacketLoggerShare\PacketLoggerShare\PacketLoggerShare.qrc'.
+  Memory.cpp
+  PacketSenderUI.cpp
+  PacketUI.cpp
+  TcpServer.cpp
+  WhitelistSettingsUI.cpp
+  AddressFunctions.cpp
+  AddressManager.cpp
+  AdvancedGroupBox.cpp
+  AdvancedListWidget.cpp
+  Config.cpp
+  DamageCounterUI.cpp
+  FilterUI.cpp
+  HookFunctions.cpp
+  HookManager.cpp
+  main.cpp
+C:\Users\Realm\source\repos\PacketLoggerShare\PacketLoggerShare\AddressFunctions.cpp(1,10): error C1083: Cannot open include file: 'AddressFunctions.h': No such file or directory
+C:\Users\Realm\source\repos\PacketLoggerShare\PacketLoggerShare\AdvancedGroupBox.cpp(3,1): error C2653: 'CAdvancedGroupBox': is not a class or namespace name
+C:\Users\Realm\source\repos\PacketLoggerShare\PacketLoggerShare\AdvancedGroupBox.cpp(3,20): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Realm\source\repos\PacketLoggerShare\PacketLoggerShare\AdvancedGroupBox.cpp(3,38): error C2065: 'QWidget': undeclared identifier
+C:\Users\Realm\source\repos\PacketLoggerShare\PacketLoggerShare\AdvancedGroupBox.cpp(3,47): error C2065: 'parent': undeclared identifier
+C:\Users\Realm\source\repos\PacketLoggerShare\PacketLoggerShare\AdvancedGroupBox.cpp(4,2): error C2059: syntax error: ':'
+C:\Users\Realm\source\repos\PacketLoggerShare\PacketLoggerShare\AdvancedGroupBox.cpp(4,4): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Realm\source\repos\PacketLoggerShare\PacketLoggerShare\AdvancedGroupBox.cpp(4,14): error C2065: 'parent': undeclared identifier
+C:\Users\Realm\source\repos\PacketLoggerShare\PacketLoggerShare\AdvancedGroupBox.cpp(5,1): error C2059: syntax error: '{'
+C:\Users\Realm\source\repos\PacketLoggerShare\PacketLoggerShare\AdvancedGroupBox.cpp(5,1): error C2143: syntax error: missing ';' before '{'
+C:\Users\Realm\source\repos\PacketLoggerShare\PacketLoggerShare\AdvancedGroupBox.cpp(5,1): error C2447: '{': missing function header (old-style formal list?)
+C:\Users\Realm\source\repos\PacketLoggerShare\PacketLoggerShare\AdvancedGroupBox.cpp(9,1): error C2825: 'CAdvancedGroupBox': must be a class or namespace when followed by '::'
+C:\Users\Realm\source\repos\PacketLoggerShare\PacketLoggerShare\AdvancedGroupBox.cpp(9,21): error C2510: 'CAdvancedGroupBox': left of '::' must be a class/struct/union
+C:\Users\Realm\source\repos\PacketLoggerShare\PacketLoggerShare\AdvancedGroupBox.cpp(9,21): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Realm\source\repos\PacketLoggerShare\PacketLoggerShare\AdvancedGroupBox.cpp(12,1): warning C4508: '{dtor}': function should return a value; 'void' return type assumed
+C:\Users\Realm\source\repos\PacketLoggerShare\PacketLoggerShare\TcpServer.cpp(2,10): error C1083: Cannot open include file: 'AddressFunctions.h': No such file or directory
+C:\Users\Realm\source\repos\PacketLoggerShare\PacketLoggerShare\PacketSenderUI.cpp(2,10): error C1083: Cannot open include file: 'AddressFunctions.h': No such file or directory
+C:\Users\Realm\source\repos\PacketLoggerShare\PacketLoggerShare\Debug\uic\ui_PacketUI.h(31,23): error C2143: syntax error: missing ';' before '*'
+C:\Users\Realm\source\repos\PacketLoggerShare\PacketLoggerShare\Debug\uic\ui_PacketUI.h(31,5): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Realm\source\repos\PacketLoggerShare\PacketLoggerShare\Debug\uic\ui_PacketUI.h(31,40): error C2238: unexpected token(s) preceding ';'
+C:\Users\Realm\source\repos\PacketLoggerShare\PacketLoggerShare\Debug\uic\ui_PacketUI.h(64,9): error C2065: 'gbLoggerSettings': undeclared identifier
+C:\Users\Realm\source\repos\PacketLoggerShare\PacketLoggerShare\Debug\uic\ui_PacketUI.h(64,32): error C2061: syntax error: identifier 'CAdvancedGroupBox'
+C:\Users\Realm\source\repos\PacketLoggerShare\PacketLoggerShare\Debug\uic\ui_PacketUI.h(65,9): error C2065: 'gbLoggerSettings': undeclared identifier
+C:\Users\Realm\source\repos\PacketLoggerShare\PacketLoggerShare\Debug\uic\ui_PacketUI.h(66,44): error C2065: 'gbLoggerSettings': undeclared identifier
+C:\Users\Realm\source\repos\PacketLoggerShare\PacketLoggerShare\Debug\uic\ui_PacketUI.h(73,40): error C2065: 'gbLoggerSettings': undeclared identifier
+C:\Users\Realm\source\repos\PacketLoggerShare\PacketLoggerShare\Debug\uic\ui_PacketUI.h(78,40): error C2065: 'gbLoggerSettings': undeclared identifier
+C:\Users\Realm\source\repos\PacketLoggerShare\PacketLoggerShare\Debug\uic\ui_PacketUI.h(89,41): error C2065: 'gbLoggerSettings': undeclared identifier
+C:\Users\Realm\source\repos\PacketLoggerShare\PacketLoggerShare\Debug\uic\ui_PacketUI.h(94,41): error C2065: 'gbLoggerSettings': undeclared identifier
+C:\Users\Realm\source\repos\PacketLoggerShare\PacketLoggerShare\Debug\uic\ui_PacketUI.h(102,36): error C2065: 'gbLoggerSettings': undeclared identifier
+C:\Users\Realm\source\repos\PacketLoggerShare\PacketLoggerShare\Debug\uic\ui_PacketUI.h(107,43): error C2065: 'gbLoggerSettings': undeclared identifier
+C:\Users\Realm\source\repos\PacketLoggerShare\PacketLoggerShare\Debug\uic\ui_PacketUI.h(113,35): error C2065: 'gbLoggerSettings': undeclared identifier
+C:\Users\Realm\source\repos\PacketLoggerShare\PacketLoggerShare\Debug\uic\ui_PacketUI.h(186,26): error C2065: 'gbLoggerSettings': undeclared identifier
+C:\Users\Realm\source\repos\PacketLoggerShare\PacketLoggerShare\Debug\uic\ui_PacketUI.h(204,9): error C2065: 'gbLoggerSettings': undeclared identifier
+C:\Users\Realm\source\repos\PacketLoggerShare\PacketLoggerShare\Debug\uic\ui_PacketUI.h(31,23): error C2143: syntax error: missing ';' before '*'
+C:\Users\Realm\source\repos\PacketLoggerShare\PacketLoggerShare\Debug\uic\ui_PacketUI.h(31,5): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Realm\source\repos\PacketLoggerShare\PacketLoggerShare\Debug\uic\ui_PacketUI.h(31,40): error C2238: unexpected token(s) preceding ';'
+C:\Users\Realm\source\repos\PacketLoggerShare\PacketLoggerShare\Debug\uic\ui_PacketUI.h(64,9): error C2065: 'gbLoggerSettings': undeclared identifier
+C:\Users\Realm\source\repos\PacketLoggerShare\PacketLoggerShare\Debug\uic\ui_PacketUI.h(64,32): error C2061: syntax error: identifier 'CAdvancedGroupBox'
+C:\Users\Realm\source\repos\PacketLoggerShare\PacketLoggerShare\Debug\uic\ui_PacketUI.h(65,9): error C2065: 'gbLoggerSettings': undeclared identifier
+C:\Users\Realm\source\repos\PacketLoggerShare\PacketLoggerShare\Debug\uic\ui_PacketUI.h(66,44): error C2065: 'gbLoggerSettings': undeclared identifier
+C:\Users\Realm\source\repos\PacketLoggerShare\PacketLoggerShare\Debug\uic\ui_PacketUI.h(73,40): error C2065: 'gbLoggerSettings': undeclared identifier
+C:\Users\Realm\source\repos\PacketLoggerShare\PacketLoggerShare\Debug\uic\ui_PacketUI.h(78,40): error C2065: 'gbLoggerSettings': undeclared identifier
+C:\Users\Realm\source\repos\PacketLoggerShare\PacketLoggerShare\Debug\uic\ui_PacketUI.h(89,41): error C2065: 'gbLoggerSettings': undeclared identifier
+C:\Users\Realm\source\repos\PacketLoggerShare\PacketLoggerShare\Debug\uic\ui_PacketUI.h(94,41): error C2065: 'gbLoggerSettings': undeclared identifier
+C:\Users\Realm\source\repos\PacketLoggerShare\PacketLoggerShare\Debug\uic\ui_PacketUI.h(102,36): error C2065: 'gbLoggerSettings': undeclared identifier
+C:\Users\Realm\source\repos\PacketLoggerShare\PacketLoggerShare\Debug\uic\ui_PacketUI.h(107,43): error C2065: 'gbLoggerSettings': undeclared identifier
+C:\Users\Realm\source\repos\PacketLoggerShare\PacketLoggerShare\Debug\uic\ui_PacketUI.h(113,35): error C2065: 'gbLoggerSettings': undeclared identifier
+C:\Users\Realm\source\repos\PacketLoggerShare\PacketLoggerShare\Debug\uic\ui_PacketUI.h(186,26): error C2065: 'gbLoggerSettings': undeclared identifier
+C:\Users\Realm\source\repos\PacketLoggerShare\PacketLoggerShare\Debug\uic\ui_PacketUI.h(204,9): error C2065: 'gbLoggerSettings': undeclared identifier
+C:\Users\Realm\source\repos\PacketLoggerShare\PacketLoggerShare\Debug\uic\ui_PacketUI.h(31,23): error C2143: syntax error: missing ';' before '*'
+C:\Users\Realm\source\repos\PacketLoggerShare\PacketLoggerShare\Debug\uic\ui_PacketUI.h(31,5): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Realm\source\repos\PacketLoggerShare\PacketLoggerShare\Debug\uic\ui_PacketUI.h(31,40): error C2238: unexpected token(s) preceding ';'
+C:\Users\Realm\source\repos\PacketLoggerShare\PacketLoggerShare\Debug\uic\ui_PacketUI.h(64,9): error C2065: 'gbLoggerSettings': undeclared identifier
+C:\Users\Realm\source\repos\PacketLoggerShare\PacketLoggerShare\Debug\uic\ui_PacketUI.h(64,32): error C2061: syntax error: identifier 'CAdvancedGroupBox'
+C:\Users\Realm\source\repos\PacketLoggerShare\PacketLoggerShare\Debug\uic\ui_PacketUI.h(65,9): error C2065: 'gbLoggerSettings': undeclared identifier
+C:\Users\Realm\source\repos\PacketLoggerShare\PacketLoggerShare\Debug\uic\ui_PacketUI.h(66,44): error C2065: 'gbLoggerSettings': undeclared identifier
+C:\Users\Realm\source\repos\PacketLoggerShare\PacketLoggerShare\Debug\uic\ui_PacketUI.h(73,40): error C2065: 'gbLoggerSettings': undeclared identifier
+C:\Users\Realm\source\repos\PacketLoggerShare\PacketLoggerShare\Debug\uic\ui_PacketUI.h(78,40): error C2065: 'gbLoggerSettings': undeclared identifier
+C:\Users\Realm\source\repos\PacketLoggerShare\PacketLoggerShare\Debug\uic\ui_PacketUI.h(89,41): error C2065: 'gbLoggerSettings': undeclared identifier
+C:\Users\Realm\source\repos\PacketLoggerShare\PacketLoggerShare\Debug\uic\ui_PacketUI.h(94,41): error C2065: 'gbLoggerSettings': undeclared identifier
+C:\Users\Realm\source\repos\PacketLoggerShare\PacketLoggerShare\Debug\uic\ui_PacketUI.h(102,36): error C2065: 'gbLoggerSettings': undeclared identifier
+C:\Users\Realm\source\repos\PacketLoggerShare\PacketLoggerShare\Debug\uic\ui_PacketUI.h(107,43): error C2065: 'gbLoggerSettings': undeclared identifier
+C:\Users\Realm\source\repos\PacketLoggerShare\PacketLoggerShare\Debug\uic\ui_PacketUI.h(113,35): error C2065: 'gbLoggerSettings': undeclared identifier
+C:\Users\Realm\source\repos\PacketLoggerShare\PacketLoggerShare\Debug\uic\ui_PacketUI.h(186,26): error C2065: 'gbLoggerSettings': undeclared identifier
+C:\Users\Realm\source\repos\PacketLoggerShare\PacketLoggerShare\Debug\uic\ui_PacketUI.h(204,9): error C2065: 'gbLoggerSettings': undeclared identifier
+C:\Users\Realm\source\repos\PacketLoggerShare\PacketLoggerShare\Debug\uic\ui_PacketUI.h(31,23): error C2143: syntax error: missing ';' before '*'
+C:\Users\Realm\source\repos\PacketLoggerShare\PacketLoggerShare\Debug\uic\ui_PacketUI.h(31,5): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Realm\source\repos\PacketLoggerShare\PacketLoggerShare\Debug\uic\ui_PacketUI.h(31,40): error C2238: unexpected token(s) preceding ';'
+C:\Users\Realm\source\repos\PacketLoggerShare\PacketLoggerShare\Debug\uic\ui_PacketUI.h(64,9): error C2065: 'gbLoggerSettings': undeclared identifier
+C:\Users\Realm\source\repos\PacketLoggerShare\PacketLoggerShare\Debug\uic\ui_PacketUI.h(64,32): error C2061: syntax error: identifier 'CAdvancedGroupBox'
+C:\Users\Realm\source\repos\PacketLoggerShare\PacketLoggerShare\Debug\uic\ui_PacketUI.h(65,9): error C2065: 'gbLoggerSettings': undeclared identifier
+C:\Users\Realm\source\repos\PacketLoggerShare\PacketLoggerShare\Debug\uic\ui_PacketUI.h(66,44): error C2065: 'gbLoggerSettings': undeclared identifier
+C:\Users\Realm\source\repos\PacketLoggerShare\PacketLoggerShare\Debug\uic\ui_PacketUI.h(73,40): error C2065: 'gbLoggerSettings': undeclared identifier
+C:\Users\Realm\source\repos\PacketLoggerShare\PacketLoggerShare\Debug\uic\ui_PacketUI.h(78,40): error C2065: 'gbLoggerSettings': undeclared identifier
+C:\Users\Realm\source\repos\PacketLoggerShare\PacketLoggerShare\Debug\uic\ui_PacketUI.h(89,41): error C2065: 'gbLoggerSettings': undeclared identifier
+C:\Users\Realm\source\repos\PacketLoggerShare\PacketLoggerShare\Debug\uic\ui_PacketUI.h(94,41): error C2065: 'gbLoggerSettings': undeclared identifier
+C:\Users\Realm\source\repos\PacketLoggerShare\PacketLoggerShare\Debug\uic\ui_PacketUI.h(102,36): error C2065: 'gbLoggerSettings': undeclared identifier
+C:\Users\Realm\source\repos\PacketLoggerShare\PacketLoggerShare\Debug\uic\ui_PacketUI.h(107,43): error C2065: 'gbLoggerSettings': undeclared identifier
+C:\Users\Realm\source\repos\PacketLoggerShare\PacketLoggerShare\Debug\uic\ui_PacketUI.h(113,35): error C2065: 'gbLoggerSettings': undeclared identifier
+C:\Users\Realm\source\repos\PacketLoggerShare\PacketLoggerShare\Debug\uic\ui_PacketUI.h(186,26): error C2065: 'gbLoggerSettings': undeclared identifier
+C:\Users\Realm\source\repos\PacketLoggerShare\PacketLoggerShare\Debug\uic\ui_PacketUI.h(204,9): error C2065: 'gbLoggerSettings': undeclared identifier
+C:\Users\Realm\source\repos\PacketLoggerShare\PacketLoggerShare\PacketUI.cpp(2,10): error C1083: Cannot open include file: 'AddressFunctions.h': No such file or directory
+C:\Users\Realm\source\repos\PacketLoggerShare\PacketLoggerShare\AdvancedGroupBox.h(4,6): error C2011: 'EAddress': 'unsigned enum' type redefinition
+C:\Users\Realm\source\repos\PacketLoggerShare\PacketLoggerShare\Debug\uic\ui_PacketUI.h(31,23): error C2143: syntax error: missing ';' before '*'
+C:\Users\Realm\source\repos\PacketLoggerShare\PacketLoggerShare\Debug\uic\ui_PacketUI.h(31,5): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Realm\source\repos\PacketLoggerShare\PacketLoggerShare\Debug\uic\ui_PacketUI.h(31,40): error C2238: unexpected token(s) preceding ';'
+C:\Users\Realm\source\repos\PacketLoggerShare\PacketLoggerShare\Debug\uic\ui_PacketUI.h(64,9): error C2065: 'gbLoggerSettings': undeclared identifier
+C:\Users\Realm\source\repos\PacketLoggerShare\PacketLoggerShare\Debug\uic\ui_PacketUI.h(64,32): error C2061: syntax error: identifier 'CAdvancedGroupBox'
+C:\Users\Realm\source\repos\PacketLoggerShare\PacketLoggerShare\Debug\uic\ui_PacketUI.h(65,9): error C2065: 'gbLoggerSettings': undeclared identifier
+C:\Users\Realm\source\repos\PacketLoggerShare\PacketLoggerShare\Debug\uic\ui_PacketUI.h(66,44): error C2065: 'gbLoggerSettings': undeclared identifier
+C:\Users\Realm\source\repos\PacketLoggerShare\PacketLoggerShare\Debug\uic\ui_PacketUI.h(73,40): error C2065: 'gbLoggerSettings': undeclared identifier
+C:\Users\Realm\source\repos\PacketLoggerShare\PacketLoggerShare\Debug\uic\ui_PacketUI.h(78,40): error C2065: 'gbLoggerSettings': undeclared identifier
+C:\Users\Realm\source\repos\PacketLoggerShare\PacketLoggerShare\Debug\uic\ui_PacketUI.h(89,41): error C2065: 'gbLoggerSettings': undeclared identifier
+C:\Users\Realm\source\repos\PacketLoggerShare\PacketLoggerShare\Debug\uic\ui_PacketUI.h(94,41): error C2065: 'gbLoggerSettings': undeclared identifier
+C:\Users\Realm\source\repos\PacketLoggerShare\PacketLoggerShare\Debug\uic\ui_PacketUI.h(102,36): error C2065: 'gbLoggerSettings': undeclared identifier
+C:\Users\Realm\source\repos\PacketLoggerShare\PacketLoggerShare\Debug\uic\ui_PacketUI.h(107,43): error C2065: 'gbLoggerSettings': undeclared identifier
+C:\Users\Realm\source\repos\PacketLoggerShare\PacketLoggerShare\Debug\uic\ui_PacketUI.h(113,35): error C2065: 'gbLoggerSettings': undeclared identifier
+C:\Users\Realm\source\repos\PacketLoggerShare\PacketLoggerShare\Debug\uic\ui_PacketUI.h(186,26): error C2065: 'gbLoggerSettings': undeclared identifier
+C:\Users\Realm\source\repos\PacketLoggerShare\PacketLoggerShare\Debug\uic\ui_PacketUI.h(204,9): error C2065: 'gbLoggerSettings': undeclared identifier
